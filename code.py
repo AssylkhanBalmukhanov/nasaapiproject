@@ -5,9 +5,9 @@ import time
 from rocketlc import past_launchs as pl, future_launchs as fl
 from nasapy import Nasa
 import requests
-token = "6333369936:AAEnm6bigl6MiUiqa8QH_6Awy8C-8Hq7oM8"
+token = ""
 bot = telebot.TeleBot(token)
-nasa = Nasa(key="ed1qjv4t5sh1ce45I8PPzzRy7EqqcCYCvYP2rWFU")
+nasa = Nasa(key="")
 MAX_MESSAGE_LENGTH = 4000# Keyboard buttons
 
 # Keyboard buttons
